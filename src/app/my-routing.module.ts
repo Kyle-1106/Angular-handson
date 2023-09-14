@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
 import { RouterModule, Routes } from '@angular/router';
+import { T1Component } from './t1/t1.component';
 
 //ルーティング情報設定
 const routes:Routes=[
   //パスを設定
   //path→パス　component→表示されるコンポーネント　
   {path:"page1",component:Page1Component},
-  {path:"page2",component:Page2Component}
+  {path:"page2",component:Page2Component},
+  {path:"api",component:T1Component},
 ]
 
 @NgModule({

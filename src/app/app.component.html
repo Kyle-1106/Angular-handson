@@ -4,4 +4,17 @@
 <app-todo-form (submit)="addTodo($event)"></app-todo-form>
 <app-todo-list [todoList]="todoList"></app-todo-list>
 <!--router-outletタグを追加-->
+<ul>
+  <li>
+    <a routerLink="">トップページ</a>
+  </li>
+  <li>
+    <a routerLink="page1">ページ1</a>
+  </li>
+  <li>
+    <a routerLink="page2">ページ2</a>
+  </li>
+</ul>
+
+<app-t1></app-t1>
 <router-outlet></router-outlet>
